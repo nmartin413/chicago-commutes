@@ -1,0 +1,35 @@
+
+#wrap {
+  position: relative;
+  width: 1200px;
+  height: 1200px;
+  background:#fff;
+  margin:0px auto;
+}
+
+.comm-canvas {
+  position:absolute;
+  z-index: 9;
+  top:0;
+  left:0;
+  pointer-events: none;
+}
+
+.comm-area {
+  position: absolute;
+  z-index: 10;
+}
+
+.comm-label {
+  position: relative;
+  left: calc(-50%);
+  width: auto;
+  padding: 2px 6px;
+  border-radius: 10px;
+  background: #999;
+  font: 8px sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  color: white;
+  white-space: nowrap;
+}
