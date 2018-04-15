@@ -33,3 +33,21 @@
   color: white;
   white-space: nowrap;
 }
+
+.legend {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 250px;
+  padding: 10px 10px 0;
+  background: #eee;
+  box-shadow: 0 0 2px rgba(0,0,0,0.25);
+}
+
+.legend p {
+  line-height: 1em;
+  margin: 0;
+  padding: 0;
+  font: 12px sans-serif;
+  margin-bottom: 10px;
+}
